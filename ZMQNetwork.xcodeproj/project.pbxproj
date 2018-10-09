@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F126D02215DC3CE00E5A9FD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F126D01215DC3CE00E5A9FD /* main.cpp */; };
+		1F126D0C215DC43300E5A9FD /* libczmq.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F126D09215DC43300E5A9FD /* libczmq.a */; };
+		1F126D0E215DC43300E5A9FD /* libzmq.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F126D0B215DC43300E5A9FD /* libzmq.a */; };
+		1F126D56215E105F00E5A9FD /* ZMQLogin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F126D4E215E105F00E5A9FD /* ZMQLogin.cpp */; };
+		1F126D57215E105F00E5A9FD /* ZMQServiceBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F126D4F215E105F00E5A9FD /* ZMQServiceBase.cpp */; };
+		1F126D58215E105F00E5A9FD /* ZMQMatchServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F126D50215E105F00E5A9FD /* ZMQMatchServer.cpp */; };
+		1F126D59215E105F00E5A9FD /* ZMQMatchManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F126D51215E105F00E5A9FD /* ZMQMatchManager.cpp */; };
+		1F126D5A215E105F00E5A9FD /* ZMQGateWay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F126D55215E105F00E5A9FD /* ZMQGateWay.cpp */; };
+		1F126D5D215E106B00E5A9FD /* ZMQReactor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F126D5C215E106B00E5A9FD /* ZMQReactor.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F126CFC215DC3CE00E5A9FD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F126CFE215DC3CE00E5A9FD /* ZMQNetwork */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZMQNetwork; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F126D01215DC3CE00E5A9FD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1F126D09215DC43300E5A9FD /* libczmq.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libczmq.a; path = ../../../../../usr/local/lib/libczmq.a; sourceTree = "<group>"; };
+		1F126D0A215DC43300E5A9FD /* libprotobuf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprotobuf.a; path = ../../../../../usr/local/lib/libprotobuf.a; sourceTree = "<group>"; };
+		1F126D0B215DC43300E5A9FD /* libzmq.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzmq.a; path = ../../../../../usr/local/lib/libzmq.a; sourceTree = "<group>"; };
+		1F126D4B215E105F00E5A9FD /* ZMQGateWay.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ZMQGateWay.hpp; sourceTree = "<group>"; };
+		1F126D4C215E105F00E5A9FD /* ZMQNetworkDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMQNetworkDefine.h; sourceTree = "<group>"; };
+		1F126D4D215E105F00E5A9FD /* ZMQMatchManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ZMQMatchManager.hpp; sourceTree = "<group>"; };
+		1F126D4E215E105F00E5A9FD /* ZMQLogin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZMQLogin.cpp; sourceTree = "<group>"; };
+		1F126D4F215E105F00E5A9FD /* ZMQServiceBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZMQServiceBase.cpp; sourceTree = "<group>"; };
+		1F126D50215E105F00E5A9FD /* ZMQMatchServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZMQMatchServer.cpp; sourceTree = "<group>"; };
+		1F126D51215E105F00E5A9FD /* ZMQMatchManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZMQMatchManager.cpp; sourceTree = "<group>"; };
+		1F126D52215E105F00E5A9FD /* ZMQLogin.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ZMQLogin.hpp; sourceTree = "<group>"; };
+		1F126D53215E105F00E5A9FD /* ZMQServiceBase.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ZMQServiceBase.hpp; sourceTree = "<group>"; };
+		1F126D54215E105F00E5A9FD /* ZMQMatchServer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ZMQMatchServer.hpp; sourceTree = "<group>"; };
+		1F126D55215E105F00E5A9FD /* ZMQGateWay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZMQGateWay.cpp; sourceTree = "<group>"; };
+		1F126D5B215E106B00E5A9FD /* ZMQReactor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ZMQReactor.hpp; sourceTree = "<group>"; };
+		1F126D5C215E106B00E5A9FD /* ZMQReactor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZMQReactor.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F126CFB215DC3CE00E5A9FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F126D0C215DC43300E5A9FD /* libczmq.a in Frameworks */,
+				1F126D0E215DC43300E5A9FD /* libzmq.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F126CF5215DC3CE00E5A9FD = {
+			isa = PBXGroup;
+			children = (
+				1F126D00215DC3CE00E5A9FD /* ZMQNetwork */,
+				1F126CFF215DC3CE00E5A9FD /* Products */,
+				1F126D08215DC43300E5A9FD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F126CFF215DC3CE00E5A9FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F126CFE215DC3CE00E5A9FD /* ZMQNetwork */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F126D00215DC3CE00E5A9FD /* ZMQNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				1F126D4A215E105F00E5A9FD /* Network */,
+				1F126D01215DC3CE00E5A9FD /* main.cpp */,
+			);
+			path = ZMQNetwork;
+			sourceTree = "<group>";
+		};
+		1F126D08215DC43300E5A9FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F126D09215DC43300E5A9FD /* libczmq.a */,
+				1F126D0A215DC43300E5A9FD /* libprotobuf.a */,
+				1F126D0B215DC43300E5A9FD /* libzmq.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F126D4A215E105F00E5A9FD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1F126D4C215E105F00E5A9FD /* ZMQNetworkDefine.h */,
+				1F126D5C215E106B00E5A9FD /* ZMQReactor.cpp */,
+				1F126D5B215E106B00E5A9FD /* ZMQReactor.hpp */,
+				1F126D4B215E105F00E5A9FD /* ZMQGateWay.hpp */,
+				1F126D55215E105F00E5A9FD /* ZMQGateWay.cpp */,
+				1F126D4E215E105F00E5A9FD /* ZMQLogin.cpp */,
+				1F126D52215E105F00E5A9FD /* ZMQLogin.hpp */,
+				1F126D51215E105F00E5A9FD /* ZMQMatchManager.cpp */,
+				1F126D4D215E105F00E5A9FD /* ZMQMatchManager.hpp */,
+				1F126D54215E105F00E5A9FD /* ZMQMatchServer.hpp */,
+				1F126D50215E105F00E5A9FD /* ZMQMatchServer.cpp */,
+				1F126D4F215E105F00E5A9FD /* ZMQServiceBase.cpp */,
+				1F126D53215E105F00E5A9FD /* ZMQServiceBase.hpp */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F126CFD215DC3CE00E5A9FD /* ZMQNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F126D05215DC3CE00E5A9FD /* Build configuration list for PBXNativeTarget "ZMQNetwork" */;
+			buildPhases = (
+				1F126CFA215DC3CE00E5A9FD /* Sources */,
+				1F126CFB215DC3CE00E5A9FD /* Frameworks */,
+				1F126CFC215DC3CE00E5A9FD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZMQNetwork;
+			productName = ZMQNetwork;
+			productReference = 1F126CFE215DC3CE00E5A9FD /* ZMQNetwork */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F126CF6215DC3CE00E5A9FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = fgr;
+				TargetAttributes = {
+					1F126CFD215DC3CE00E5A9FD = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 1F126CF9215DC3CE00E5A9FD /* Build configuration list for PBXProject "ZMQNetwork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F126CF5215DC3CE00E5A9FD;
+			productRefGroup = 1F126CFF215DC3CE00E5A9FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F126CFD215DC3CE00E5A9FD /* ZMQNetwork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F126CFA215DC3CE00E5A9FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F126D5D215E106B00E5A9FD /* ZMQReactor.cpp in Sources */,
+				1F126D57215E105F00E5A9FD /* ZMQServiceBase.cpp in Sources */,
+				1F126D59215E105F00E5A9FD /* ZMQMatchManager.cpp in Sources */,
+				1F126D56215E105F00E5A9FD /* ZMQLogin.cpp in Sources */,
+				1F126D5A215E105F00E5A9FD /* ZMQGateWay.cpp in Sources */,
+				1F126D02215DC3CE00E5A9FD /* main.cpp in Sources */,
+				1F126D58215E105F00E5A9FD /* ZMQMatchServer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1F126D03215DC3CE00E5A9FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1F126D04215DC3CE00E5A9FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1F126D06215DC3CE00E5A9FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F126D07215DC3CE00E5A9FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F126CF9215DC3CE00E5A9FD /* Build configuration list for PBXProject "ZMQNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F126D03215DC3CE00E5A9FD /* Debug */,
+				1F126D04215DC3CE00E5A9FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F126D05215DC3CE00E5A9FD /* Build configuration list for PBXNativeTarget "ZMQNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F126D06215DC3CE00E5A9FD /* Debug */,
+				1F126D07215DC3CE00E5A9FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F126CF6215DC3CE00E5A9FD /* Project object */;
+}
